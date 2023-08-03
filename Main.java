@@ -1,4 +1,4 @@
-public class Main{
+/*public class Main{
     public static void main(String[] args){
         System.out.print("\"I love pizza\" \n");
         System.out.print("Its really good!");
@@ -6,4 +6,18 @@ public class Main{
         // This a Comment Please star
         
     }
-}
+}*/
+/*public class Main {
+
+ public static void main(String[] args){
+  
+  int x = 123;
+  double y = 3.14;
+  boolean z = true;
+  char symbol = '@';
+  String name = "Bro";
+  
+  System.out.println("Hello "+name);
+  
+ }
+}*/
