@@ -21,3 +21,7 @@
   
  }
 }*/
+
+//methods
+//calling methods
+//scope
