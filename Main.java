@@ -25,3 +25,7 @@
 //methods
 //calling methods
 //scope
+//addign parameter
+//Reassigning Instance Fields
+//Returns
+//The toString() Method
