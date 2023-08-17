@@ -31,3 +31,19 @@
 //The toString() Method
 
 
+//--------------------------------------------------------------------------------------
+
+
+//conditionals in java
+public class Main {
+    public static void main(String[] args) {
+        int salary = 24000;
+        if (salary > 1000) {
+            salary += 200;
+
+        }else {
+            salary += 100;
+        }
+        System.out.println(salary);
+    }
+}
