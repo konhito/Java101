@@ -1,39 +1,18 @@
-import javax.swing.*;
-import java.awt.*;
-import  java.awt.event.*;
+import java.util.Scanner;
 
-
-
-
-public class Calculator implements ActionListener{
-
-    JFrame frame;
-    JTextField textField;
-    JButton[] numButtons = new JButton[10];
-    JButton[] functionButtons = new JButton[8];
-    JButton addButton,subButton,mulButton,divButton;
-    JButton decButton, equButton, delButton;
-    JPanel panel;
-
-
-    Font myFont = new Font("arial",Font.BOLD,30);
-
-    double num1=0,num2=0,result=0;
-    char operators;
-
-
-
-
-    Calculator(){
-
-    }
+public class Calculator {
     public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        // TAke in putf from user
 
-        Calculator calc = new Calculator();
-        
-    }
 
-    public void actionPerformed(ActionEvent e) {
-        
+        while(true);
+
+        char op = in.next().trim().charAt(0);
+        if (op == '+' || op == '-' || op == '*' || op =='/') {
+            
+        }
+
+
     }
 }
