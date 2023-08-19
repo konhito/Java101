@@ -36,10 +36,11 @@
 
 //conditionals in java
 
+import java.net.Socket;
 import java.util.Scanner;
 
-public class Main {
-    public static void main(String[] args) {
+// public class Main {
+//     public static void main(String[] args) {
         //  int salary = 24000;
         // if (salary > 1000) {
         //     salary += 200;
@@ -138,5 +139,27 @@ public class Main {
 
     
 
+//     }
+// // } 
+
+// public class Main {
+//     public static void main(String[] args) {
+//         Scanner in = new Scanner(System.in);
+//         int num1, num2,sum;
+
+//         System.out.print("Enter your first number: ");
+//          num1 = in.nextInt();
+//         System.out.print("Enter yout Second number:  ");
+//          num2 = in.nextInt();
+//         sum = num1 + num2;
+//         System.out.println("The Sum = "+ sum);
+
+
+//     }
+// }
+
+public class Main{
+    public static void main(String[] args) {
+        
     }
-} 
+}
