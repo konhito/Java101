@@ -37,6 +37,7 @@
 //conditionals in java
 
 import java.net.Socket;
+import java.util.Arrays;
 import java.util.Scanner;
 
 // public class Main {
@@ -158,40 +159,53 @@ import java.util.Scanner;
 //     }
 // }
 
-public class Main{
-    public static void main(String[] args) {
+// public class Main{
+//     public static void main(String[] args) {
         
-        // int ans = sum2();
-        // System.out.println(ans);
-        int ans = sum3(20,30);
-        System.out.println(ans);
+//         // int ans = sum2();
+//         // System.out.println(ans);
+//         int ans = sum3(20,30);
+//         System.out.println(ans);
 
+//     }
+
+//     static int sum3(int a,int b){
+//         int sum = a + b;
+//         return sum;
+
+//     }
+//     static int sum2(){
+//         Scanner in = new Scanner(System.in);
+//         System.out.print("Enter your first number: ");
+//         int num1 = in.nextInt();
+//         System.out.print("Enter yout Second number:  ");
+//         int num2 = in.nextInt();
+//         int sum = num1 + num2;
+//         return sum;  //retuen means the functuon is over
+
+//     }
+
+
+//     static void sum(){
+//         Scanner in = new Scanner(System.in);
+//         System.out.print("Enter your first number: ");
+//         int num1 = in.nextInt();
+//         System.out.print("Enter yout Second number:  ");
+//         int num2 = in.nextInt();
+//         int sum = num1 + num2;
+//         System.out.println("The Sum = "+ sum);
+//     }
+// }
+
+public class Main {
+    public static void main(String[] args) {
+        // prirmirives : int srt just pass value only
+        int[] arr = {1,2,34,5,};
+        change(arr);
+        System.out.println(Arrays.toString(arr));
     }
+    static void change(int[] nums){
+        nums[0] = 1010;
 
-    static int sum3(int a,int b){
-        int sum = a + b;
-        return sum;
-
-    }
-    static int sum2(){
-        Scanner in = new Scanner(System.in);
-        System.out.print("Enter your first number: ");
-        int num1 = in.nextInt();
-        System.out.print("Enter yout Second number:  ");
-        int num2 = in.nextInt();
-        int sum = num1 + num2;
-        return sum;  //retuen means the functuon is over
-
-    }
-
-
-    static void sum(){
-        Scanner in = new Scanner(System.in);
-        System.out.print("Enter your first number: ");
-        int num1 = in.nextInt();
-        System.out.print("Enter yout Second number:  ");
-        int num2 = in.nextInt();
-        int sum = num1 + num2;
-        System.out.println("The Sum = "+ sum);
     }
 }
