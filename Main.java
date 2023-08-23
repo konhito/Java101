@@ -197,15 +197,39 @@ import java.util.Scanner;
 //     }
 // }
 
+// public class Main {
+//     public static void main(String[] args) {
+//         // prirmirives : int srt just pass value only
+//         int[] arr = {1,2,34,5,};
+//         change(arr);
+//         System.out.println(Arrays.toString(arr));
+//     }
+//     static void change(int[] nums){
+//         nums[0] = 1010;
+
+//     }
+// }
+
+// public class Main {
+//     public static void main(String[] args) {
+//         fin(2,34,424,23,423,4234,2,4);
+//         mux(32,42,42);
+//   // variab;e ;egnth argumrnt
+//     }
+
+//     static void mux(int a , int b, int c){
+
+//     }
+
+
+//     static void fin(int ...v){
+//         System.out.println(Arrays.toString(v));
+//     }
+// }
+
+// 
 public class Main {
     public static void main(String[] args) {
-        // prirmirives : int srt just pass value only
-        int[] arr = {1,2,34,5,};
-        change(arr);
-        System.out.println(Arrays.toString(arr));
-    }
-    static void change(int[] nums){
-        nums[0] = 1010;
-
+        int[][] arr = new int[3][3];
     }
 }
